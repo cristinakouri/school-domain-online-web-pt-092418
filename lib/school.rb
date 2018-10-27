@@ -38,19 +38,19 @@ class School
         end
         hash
 
-        another way
-        hash = {}
-        roster.each do | grade, names_arr|
+        #another way
+        #hash = {}
+        #roster.each do | grade, names_arr|
             hash[grade] = names_arr.sort
-        end
-        hash.sort.to_h
+        #end
+        #hash.sort.to_h
     end
     reader == getter
     def roster
         @roster
     end
 
-    writer == setter
+    #writer == setter
     def roster=(hash)
         @roster = hash
     end
